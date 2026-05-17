@@ -1,0 +1,5 @@
+model,bert_precision_media,bert_precision_mediana,bert_precision_desvio,bert_recall_media,bert_recall_mediana,bert_recall_desvio,bert_F1_media,bert_F1_mediana,bert_F1_desvio
+Gemini 2.5 Flash,0.716297,0.71815,0.035838,0.74148,0.7421,0.038371,0.72839,0.7322,0.034163
+Claude Sonnet 4.6,0.750866,0.7523,0.037536,0.756959,0.759,0.037368,0.753599,0.7605,0.034269
+GPT-4.1 mini,0.749031,0.75615,0.037224,0.743329,0.7457,0.039781,0.74589,0.7487,0.035725
+DeepSeek-V3,0.740838,0.74595,0.039491,0.732926,0.7369,0.042285,0.736539,0.73825,0.038062

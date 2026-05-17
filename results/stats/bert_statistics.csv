@@ -1,5 +1,0 @@
-model,bert_precision_media,bert_precision_mediana,bert_precision_desvio,bert_recall_media,bert_recall_mediana,bert_recall_desvio,bert_F1_media,bert_F1_mediana,bert_F1_desvio
-Gemini,0.661578,0.6614,0.061899,0.766564,0.7642,0.031932,0.708799,0.7169,0.041989
-Claude,0.70216,0.69965,0.058464,0.768152,0.7715,0.035811,0.732223,0.73775,0.038
-OpenAI,0.73286,0.7376,0.056543,0.74965,0.7537,0.043646,0.739597,0.74375,0.038563
-DeepSeek,0.667762,0.66705,0.0641,0.768769,0.76455,0.032223,0.712984,0.71955,0.041067

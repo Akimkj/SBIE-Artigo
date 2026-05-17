@@ -97,7 +97,9 @@ Rules: 1. DO NOT include any text before or after the JSON; 2. The JSON MUST be 
 │   │   ├── base/               # Gráficos gerados a partir dos datasets base
 │   │   ├── debug/              # Gráficos de depuração
 │   │   └── limited/            # Gráficos dos datasets com controle de tamanho
-│   └── stats/                  # Estatísticas agregadas (média, mediana, desvio)
+│   └── stats/
+│       ├── base/               # Estatísticas dos datasets base (bert_base_statistics.csv)
+│       └── limited/            # Estatísticas dos datasets com controle (bert_limited_statistics.csv)
 ├── src/
 │   ├── services/               # Integrações com APIs (Claude, OpenAI, Gemini, DeepSeek)
 │   ├── evaluators/             # Avaliação com BERTScore (ModernBERT e RoBERTa)
@@ -151,8 +153,8 @@ python main.py
 O menu oferece as seguintes opções:
 1. Gerar novo dataset com um dos modelos
 2. Avaliar dataset com BERTScore (ModernBERT ou RoBERTa)
-3. Gerar gráficos comparativos
-4. Calcular estatísticas BERT (média, mediana, desvio padrão)
+3. Gerar gráficos comparativos (base ou limited)
+4. Calcular estatísticas BERT — média, mediana, desvio padrão (base ou limited)
 
 ---
 

@@ -1,0 +1,91 @@
+id,question,bert_precision,bert_recall,bert_F1
+60,How do I lowercase a string in Python?,0.7271,0.7876,0.7562
+53,How do I parse a string to a float or int?,0.6493,0.6407,0.645
+25,Does Python have a string 'contains' substring method?,0.6644,0.6838,0.674
+40,How do I check if a list is empty?,0.7653,0.7259,0.7451
+68,How do I get the number of elements in a list (length of a list) in Python?,0.7769,0.7315,0.7535
+79,How do I append to a file?,0.757,0.772,0.7644
+63,Calling a function of a module by using its name (a string),0.7467,0.7364,0.7415
+89,How do I check if a string represents a number (float or int)?,0.6614,0.6304,0.6455
+9,How can I access the index value in a 'for' loop?,0.7442,0.7275,0.7358
+21,Convert bytes to a string in Python 3,0.8236,0.7959,0.8096
+38,How do I change the size of figures drawn with Matplotlib?,0.7315,0.7255,0.7285
+37,How do I make a time delay?,0.6931,0.6911,0.6921
+55,How do I get a substring of a string in Python?,0.6782,0.6972,0.6876
+66,How to remove an element from a list by index,0.6979,0.7125,0.7051
+44,What is the difference between Python's list methods append and extend?,0.716,0.6415,0.6767
+80,Is there a way to run Python on Android?,0.7662,0.7158,0.7402
+24,How can I add new keys to a dictionary?,0.7658,0.818,0.7911
+39,How do I concatenate two lists in Python?,0.7719,0.7671,0.7695
+71,How can I determine a Python variable's type?,0.7499,0.7288,0.7392
+26,How can I delete a file or folder in Python?,0.7608,0.7638,0.7623
+78,Why is it string.join(list) instead of list.join(string)?,0.6797,0.6392,0.6588
+85,How to prettyprint a JSON file?,0.7387,0.6999,0.7188
+75,How do I count the occurrences of a list item?,0.757,0.7206,0.7384
+74,How to check if the string is empty in Python?,0.7509,0.7511,0.751
+50,How can I sort a list of dictionaries by a value of the dictionary in Python?,0.79,0.7843,0.7871
+70,How do I pad a string with zeros?,0.6938,0.6978,0.6958
+18,"How can I catch multiple exceptions in one line? (in the ""except"" block)",0.712,0.6962,0.704
+86,Getting the class name of an instance,0.7759,0.7467,0.761
+17,How do I get the current time in Python?,0.6869,0.6481,0.6669
+47,How can I remove a key from a Python dictionary?,0.7642,0.8243,0.7931
+56,How do I escape curly-brace ({}) characters characters in a string while using .format?,0.7557,0.7246,0.7398
+36,Understanding Python super() with __init__() methods,0.7723,0.7292,0.7502
+65,How can I randomly select (choose) an item from a list (get a random element)?,0.6983,0.6942,0.6962
+30,How can I access environment variables in Python?,0.7305,0.7302,0.7303
+7,How do I execute a program or call a system command?,0.7566,0.7733,0.7648
+61,How can I check if an object has an attribute?,0.6903,0.7109,0.7004
+87,How do I get the row count of a Pandas DataFrame?,0.7656,0.7484,0.7569
+81,How can I remove a trailing newline?,0.7381,0.7404,0.7393
+51,How to leave/exit/deactivate a Python virtualenv,0.7433,0.7189,0.7309
+48,"Convert string ""Jun 1 2005 1:33PM"" into datetime",0.7769,0.7987,0.7876
+57,Check if a given key already exists in a dictionary,0.7422,0.7346,0.7384
+29,How do I list all files of a directory?,0.7627,0.7717,0.7672
+16,How can I use a global variable in a function?,0.7773,0.7483,0.7625
+27,"Least Astonishment"" and the Mutable Default Argument",0.6761,0.7044,0.69
+72,Delete an element from a dictionary,0.7335,0.7365,0.735
+52,How do I get the last element of a list?,0.7593,0.7927,0.7756
+58,Importing files from different folder,0.746,0.7625,0.7541
+88,How to read a file line-by-line into a list?,0.783,0.7967,0.7898
+14,"Iterating over a dictionary using a 'for' loop, getting keys",0.7331,0.7756,0.7538
+67,Delete a column from a Pandas DataFrame,0.7524,0.7747,0.7634
+90,What's the canonical way to check for type in Python?,0.7602,0.7737,0.7669
+19,How do I copy a file?,0.7809,0.7563,0.7684
+20,What is __init__.py for?,0.7714,0.7891,0.7802
+59,Class (static) variables and methods,0.7512,0.7267,0.7388
+42,How do I split a list into equally-sized chunks?,0.7172,0.776,0.7454
+43,Find the current directory and file's directory,0.8093,0.8103,0.8098
+49,How to upgrade all Python packages with pip,0.746,0.7543,0.7501
+84,How do I split the definition of a long string over multiple lines?,0.7172,0.7405,0.7286
+77,How do I measure elapsed time in Python?,0.7859,0.7584,0.7719
+5,How do I check whether a file exists without exceptions?,0.7367,0.7547,0.7456
+15,How can I iterate over rows in a Pandas DataFrame?,0.7568,0.7365,0.7465
+62,How to print without a newline or space,0.7588,0.7367,0.7476
+64,Limiting floats to two decimal points,0.7232,0.733,0.7281
+45,Renaming column names in Pandas,0.7515,0.7644,0.7579
+31,How do I sort a dictionary by value?,0.7834,0.7967,0.79
+10,How do I make a flat list out of a list of lists?,0.7666,0.7338,0.7498
+82,Static methods in Python?,0.786,0.7714,0.7786
+73,Determine the type of an object?,0.7831,0.778,0.7806
+32,How do I clone a list so that it doesn't change unexpectedly after assignment?,0.7314,0.745,0.7381
+76,Why is reading lines from stdin much slower in C++ than Python?,0.7463,0.742,0.7441
+34,How do I print colored text to the terminal?,0.719,0.7163,0.7177
+8,"How do I create a directory, and any missing parent directories?",0.7908,0.7505,0.7701
+83,Installing specific package version with pip,0.7446,0.71,0.7269
+28,What does ** (double star/asterisk) and * (star/asterisk) do for parameters?,0.7886,0.7852,0.7869
+12,How slicing in Python works,0.7719,0.7756,0.7738
+23,How do I select rows from a DataFrame based on column values?,0.6994,0.7441,0.7211
+11,What is the difference between @staticmethod and @classmethod in Python?,0.7873,0.7927,0.79
+46,"Why is ""1000000000000000 in range(1000000000000001)"" so fast in Python 3?",0.7109,0.7356,0.723
+13,How can I find the index for a given item in a list?,0.7767,0.7654,0.771
+54,How do I install pip on Windows?,0.7567,0.7388,0.7476
+3,Does Python have a ternary conditional operator?,0.7811,0.7464,0.7634
+69,"What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?",0.7806,0.7841,0.7824
+22,What is the difference between __str__ and __repr__?,0.7556,0.7371,0.7463
+33,How do I pass a variable by reference?,0.719,0.7562,0.7371
+35,Manually raising (throwing) an exception in Python,0.7669,0.7561,0.7614
+2,"What does if __name__ == ""__main__"": do?",0.7756,0.7784,0.777
+1,"What does the ""yield"" keyword do in Python?",0.7573,0.6827,0.7181
+6,How do I merge two dictionaries in a single expression in Python?,0.8203,0.7602,0.7891
+4,What are metaclasses in Python?,0.8178,0.7632,0.7895
+41,How do I make function decorators and chain them together,0.8401,0.7758,0.8067

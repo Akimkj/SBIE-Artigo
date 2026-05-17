@@ -134,6 +134,8 @@ Ative o ambiente virtual:
 pip install -r requirements.txt
 ```
 
+> **macOS:** os pacotes `nvidia-*` e `triton` são exclusivos de Linux com GPU e foram removidos do `requirements.txt`. No macOS o `torch` é instalado automaticamente na versão compatível.
+
 ### 3. Variáveis de ambiente
 Crie um arquivo `.env` na raiz com as chaves de API:
 

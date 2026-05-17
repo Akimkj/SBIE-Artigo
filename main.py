@@ -12,21 +12,21 @@ from src.charts import run_charts
 # ── Caminhos dos datasets ──
 PATH_GOLDENSET = os.path.join("data", "raw", "popular_StackOverflow.json")
 
-PATH_GEMINISET  = os.path.join("data", "processed", "gemini_dataset.json")
+PATH_GEMINISET  = os.path.join("data", "processed", "base", "gemini_dataset.json")
 PATH_GEMINISET_LIMITED = os.path.join("data", "processed", "limited", "gemini_dataset_limited.json")
-PATH_GEMINIBERT = os.path.join("results", "csv", "avBert_gemini.csv")
+PATH_GEMINIBERT = os.path.join("results", "csv", "base", "avBert_gemini.csv")
 
-PATH_CLAUDESET  = os.path.join("data", "processed", "claude_dataset.json")
+PATH_CLAUDESET  = os.path.join("data", "processed", "base", "claude_dataset.json")
 PATH_CLAUDESET_LIMITED = os.path.join("data", "processed", "limited", "claude_dataset_limited.json")
-PATH_CLAUDEBERT = os.path.join("results", "csv", "avBert_claude.csv")
+PATH_CLAUDEBERT = os.path.join("results", "csv", "base", "avBert_claude.csv")
 
-PATH_DEEPSEEKSET  = os.path.join("data", "processed", "deepseek_dataset.json")
+PATH_DEEPSEEKSET  = os.path.join("data", "processed", "base", "deepseek_dataset.json")
 PATH_DEEPSEEKSET_LIMITED = os.path.join("data", "processed", "limited", "deepseek_dataset_limited.json")
-PATH_DEEPSEEKBERT = os.path.join("results", "csv", "avBert_deepseek.csv")
+PATH_DEEPSEEKBERT = os.path.join("results", "csv", "base", "avBert_deepseek.csv")
 
-PATH_OPENAISET  = os.path.join("data", "processed", "openai_dataset.json")
+PATH_OPENAISET  = os.path.join("data", "processed", "base", "openai_dataset.json")
 PATH_OPENAISET_LIMITED =  os.path.join("data", "processed", "limited", "openai_dataset_limited.json")
-PATH_OPENAIBERT = os.path.join("results", "csv", "avBert_openai.csv")
+PATH_OPENAIBERT = os.path.join("results", "csv", "base", "avBert_openai.csv")
 
 PATH_STATS_CSV = os.path.join("results", "stats", "bert_statistics.csv")
 

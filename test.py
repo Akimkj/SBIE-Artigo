@@ -20,10 +20,10 @@ PATH_OPENAIBERT_LIMITED = os.path.join("results", "csv", "limited", "avBert_open
 PATH_STATS_CSV = os.path.join("results", "stats", "bert_statistics.csv")
 # ── Caminhos dos datasets ──
 PATH_GOLDENSET = os.path.join("data", "raw", "stackoverflow_dataset.json")
-PATH_GEMINISET  = os.path.join("data", "processed", "gemini_dataset.json")
-PATH_CLAUDESET  = os.path.join("data", "processed", "claude_dataset.json")
-PATH_DEEPSEEKSET  = os.path.join("data", "processed", "deepseek_dataset.json")
-PATH_OPENAISET  = os.path.join("data", "processed", "openai_dataset.json")
+PATH_GEMINISET  = os.path.join("data", "processed", "base", "gemini_dataset.json")
+PATH_CLAUDESET  = os.path.join("data", "processed", "base", "claude_dataset.json")
+PATH_DEEPSEEKSET  = os.path.join("data", "processed", "base", "deepseek_dataset.json")
+PATH_OPENAISET  = os.path.join("data", "processed", "base", "openai_dataset.json")
 PATH_GEMINISET_LIMITED = os.path.join("data", "processed", "limited", "gemini_dataset_limited.json")
 PATH_CLAUDESET_LIMITED = os.path.join("data", "processed", "limited", "claude_dataset_limited.json")
 PATH_DEEPSEEKSET_LIMITED = os.path.join("data", "processed", "limited", "deepseek_dataset_limited.json")
@@ -35,7 +35,7 @@ modernBertEvaluation(loadData(PATH_OPENAISET_LIMITED), loadData(PATH_GOLDENSET),
 modernBertEvaluation(loadData(PATH_DEEPSEEKSET_LIMITED), loadData(PATH_GOLDENSET), PATH_DEEPSEEKBERT_LIMITED)'''
 
 
-PATH_DIR_ORIGIN = os.path.join("results", "csv")
+PATH_DIR_ORIGIN = os.path.join("results", "csv", "base")
 run_charts(PATH_STATS_CSV, PATH_DIR_ORIGIN)
 
 

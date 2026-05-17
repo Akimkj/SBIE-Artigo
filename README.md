@@ -85,13 +85,19 @@ Rules: 1. DO NOT include any text before or after the JSON; 2. The JSON MUST be 
 ```
 ├── data/
 │   ├── raw/                    # Golden Set (Stack Overflow)
-│   └── processed/              # Datasets gerados pelas LLMs
-│       └── limited/            # Datasets com controle de tamanho
+│   └── processed/
+│       ├── base/               # Datasets gerados pelas LLMs (sem controle de tamanho)
+│       └── limited/            # Datasets gerados com controle de tamanho (±10% tokens)
 ├── results/
-│   ├── csv/                    # Resultados BERTScore por modelo
-│   │   └── limited/            # Resultados dos datasets com controle
-│   ├── stats/                  # Estatísticas agregadas (média, mediana, desvio)
-│   └── graphs/                 # Visualizações geradas
+│   ├── csv/
+│   │   ├── base/               # Resultados BERTScore dos datasets base
+│   │   ├── debug/              # Resultados de execuções de depuração
+│   │   └── limited/            # Resultados BERTScore dos datasets com controle
+│   ├── graphs/
+│   │   ├── base/               # Gráficos gerados a partir dos datasets base
+│   │   ├── debug/              # Gráficos de depuração
+│   │   └── limited/            # Gráficos dos datasets com controle de tamanho
+│   └── stats/                  # Estatísticas agregadas (média, mediana, desvio)
 ├── src/
 │   ├── services/               # Integrações com APIs (Claude, OpenAI, Gemini, DeepSeek)
 │   ├── evaluators/             # Avaliação com BERTScore (ModernBERT e RoBERTa)

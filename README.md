@@ -4,7 +4,7 @@ Projeto de Iniciação Científica submetido ao **SBIE (Simpósio Brasileiro de 
 
 O objetivo é avaliar semanticamente respostas geradas por Large Language Models (LLMs) em perguntas de programação Python, comparando-as com respostas humanas de alta qualidade extraídas do Stack Overflow. O foco do projeto é a comparação direta entre respostas de LLMs e respostas humanas.
 
-O principal diferencial é a investigação do impacto do tamanho das respostas no comportamento do BERTScore, e a proposta de controle de tokens para reduzir esse viés.
+A principal contribuição é evidênciar que as LLMs não são capazes de oferecer a qualidade semântica das respostas humanas. Além disso, um diferencial é a investigação do impacto do tamanho das respostas no comportamento do BERTScore, e a proposta de controle de tokens para reduzir esse viés.
 
 ---
 

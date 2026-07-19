@@ -1,6 +1,6 @@
 # Avaliação de LLMs como Recurso de Apoio ao Aprendizado de Programação Básica
 
-Projeto de Iniciação Científica submetido ao **SBIE (Simpósio Brasileiro de Informática na Educação)**.
+Projeto de Iniciação Científica submetido ao **SBIE 2026 (Simpósio Brasileiro de Informática na Educação)**.
 
 O objetivo é avaliar semanticamente respostas geradas por Large Language Models (LLMs) em perguntas de programação Python, comparando-as com respostas humanas de alta qualidade extraídas do Stack Overflow. O foco do projeto é a comparação direta entre respostas de LLMs e respostas humanas.
 

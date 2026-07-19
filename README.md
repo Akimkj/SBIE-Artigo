@@ -1,4 +1,4 @@
-# Avaliação Semântica de Respostas Geradas por LLMs no Contexto de Programação em Python
+# Avaliação de LLMs como Recurso de Apoio ao Aprendizado de Programação Básica
 
 Projeto de Iniciação Científica submetido ao **SBIE (Simpósio Brasileiro de Informática na Educação)**.
 
